@@ -9,15 +9,15 @@ const initialState = {
   todos: []
 }
 
-const counterReducer = (state = initialState.counter, action) =>
+const counter = (state = initialState.counter, action) =>
   action.type === INCREMENT ? state + 1 : state
 
-const todosReducer = (state = initialState.todos, action) =>
+const todos = (state = initialState.todos, action) =>
   action.type === ADD_TODO ? [...state, 'Redux'] : state
 
 const rootReducer = combineReducers({
-  counter: counterReducer,
-  todos: todosReducer
+  counter,
+  todos
 })
 
 const store = createStore(rootReducer)

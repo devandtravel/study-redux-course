@@ -5,7 +5,8 @@
   "scripts": {
     "09": "node 09-basic-api",
     "10": "parcel 10-clicker/index.html",
-    "12": "node 12-action-creators"
+    "12": "node 12-action-creators",
+    "13": "node 13-default-store"
   },
   "license": "ISC",
   "dependencies": {

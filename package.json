@@ -2,12 +2,7 @@
   "name": "s1-redux",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "09": "node 09-basic-api",
-    "10": "parcel 10-clicker/index.html",
-    "12": "node 12-action-creators",
-    "13": "node 13-default-store"
-  },
+  "scripts": {},
   "license": "ISC",
   "dependencies": {
     "redux": "^4.1.2"
